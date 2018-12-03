@@ -11,8 +11,8 @@
 @interface FirstViewController ()
 
 @property (nonatomic, strong) NSString *test;
-@property (nonatomic, copy) NSString *testB;
 @property (nonatomic, strong) UILabel *label;
+@property (nonatomic, strong) UIButton *btn;
 
 @end
 
