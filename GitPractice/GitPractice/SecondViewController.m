@@ -10,6 +10,9 @@
 
 @interface SecondViewController ()
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) UIView *view;
+
 @end
 
 @implementation SecondViewController
