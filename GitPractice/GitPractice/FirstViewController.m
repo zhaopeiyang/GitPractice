@@ -10,6 +10,10 @@
 
 @interface FirstViewController ()
 
+@property (nonatomic, strong) NSString *test;
+@property (nonatomic, copy) NSString *testA;
+@property (nonatomic, copy) NSString *testB;
+
 @end
 
 @implementation FirstViewController
@@ -17,6 +21,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"%@", self);
+}
+
+- (void)testFuc {
+    
+}
+
+- (void)testMethod {
+    
 }
 
 - (void)didReceiveMemoryWarning {
