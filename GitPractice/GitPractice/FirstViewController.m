@@ -11,8 +11,8 @@
 @interface FirstViewController ()
 
 @property (nonatomic, strong) NSString *test;
-@property (nonatomic, copy) NSString *testA;
 @property (nonatomic, copy) NSString *testB;
+@property (nonatomic, strong) UILabel *label;
 
 @end
 
@@ -24,7 +24,7 @@
     NSLog(@"%@", self);
 }
 
-- (void)testFuc {
+- (void)method:(id)sender {
     
 }
 
